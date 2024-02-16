@@ -38,5 +38,8 @@ public class ArticleController {
         model.addAttribute("article", articleEntity);
         return "articles/show";
     }
-
+@GetMapping("/articles")
+    public String index(){
+        return "";
+    }
 }
